@@ -99,10 +99,10 @@ To facilitate the reading of the object annotations, we provide the following MA
 
 The above function will read the XML file and convert it to a MATLAB structure containing the following fields:
 ```
-	- filename: name of the file
-	- folder: scene class name
-	- class: scene category id
-	- objects: a structure containing the bounding box information and polygon points delineating the objects. Either of these annotations may be helpful depending on how you intend to use them
+- filename: name of the file
+- folder: scene class name
+- class: scene category id
+- objects: a structure containing the bounding box information and polygon points delineating the objects. Either of these annotations may be helpful depending on how you intend to use them
 ```
 
 ### Submission format

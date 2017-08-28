@@ -1,4 +1,5 @@
 # MiniPlaces Challenge: Image Classification Benchmark for the Education of Deep Learning in Computer Vision
+![teaser](teaser.jpg)
 
 ## Introduction
 

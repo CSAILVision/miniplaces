@@ -1,4 +1,4 @@
-# MiniPlaces Challenge: an Educational Tool for Deep Learning in Computer Vision
+# MiniPlaces Challenge: Image Classification Benchmark for the Education of Deep Learning in Computer Vision
 
 ## Introduction
 
@@ -22,6 +22,8 @@ Table of contents:
 
 ## 1. Overview of challenge dataset
 
+The link for downloading the image data is [here](http://miniplaces.csail.mit.edu/data/data.tar.gz).
+
 There are three types of image data for this competition, all coming from the larger Places2 dataset: training data (TRAINING), validation data (VALIDATION), and test (TEST). There is no overlap in the three sources of data: TRAINING, VALIDATION, and TEST.  All three sets of data contain images of 100 categories of scenes.
 
 ```
@@ -38,7 +40,6 @@ Challenge database statistics is as follow
   Validation:	10,000 images, with 100 images per category
   Test:		10,000 images, with 100 images per category
 ```
-The link for downloading the image data is [here](http://miniplaces.csail.mit.edu/data/data.tar.gz).
 
 The 3 sets of images (training, validation and test) are available as a single tar archive. All images are in JPEG format. For the challenge, images have been resized to 128x128 to make the data manageable for all students.
 
@@ -140,15 +141,14 @@ ground_truth_file: ../data/val.txt
     5.0000    0.9525
 ```
 
-In this demo, we take top i ( i=1...5) predictions (and ignore the
-rest) from your result file and plot the error as a function of the
-number of guesses. 
+In this demo, we take top i ( i=1...5) predictions (and ignore the rest) from your result file and plot the error as a function of the number of guesses. 
 
-Only the error with 5 guesses will be used to determine the winner.
-
-(The demo.val.pred.txt used here is a synthetic result.)
+Only the error with 5 guesses will be used to determine the winner. The demo.val.pred.txt used here is a synthetic result.
 
 ## 3. Baseline models
+
+* The baseline models trained in [MatConvNet](http://www.vlfeat.org/matconvnet/) is available inside [model](model).
+* PyTorch model and TensorFlow model (TODO).
 
 ## 4. Reference 
 Link: [Places2 Database](http://places2.csail.mit.edu), [Places1 Database](http://places.csail.mit.edu)

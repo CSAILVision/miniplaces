@@ -20,7 +20,7 @@ def createH5(params):
 	list_im = np.array(list_im, np.object)
 	list_lab = np.array(list_lab, np.uint8)
 	N = list_im.shape[0]
-	print('# Images found:'), N
+	print('# Images found:', N)
 	
 	# permutation
 	perm = np.random.permutation(N) 
@@ -38,7 +38,7 @@ def createH5(params):
 		im_set[i] = image
 
 		if i % 1000 == 0:
-			print 'processing %d/%d (%.2f%% done)' % (i, N, i*100.0/N)
+			print('processing %d/%d (%.2f%% done)' % (i, N, i*100.0/N))
 
 	f_h5.close()
 

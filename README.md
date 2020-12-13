@@ -23,7 +23,7 @@ Table of contents:
 
 ## 1. Overview of challenge dataset
 
-The link for downloading the image data is [here](http://miniplaces.csail.mit.edu/data/data.tar.gz).
+The link for downloading the image data is [here](http://miniplaces.csail.mit.edu/data/data.tar.gz). [Backup link at Google Drive](https://drive.google.com/file/d/16GYHdSWS3iMYwMPv5FpeDZN2rH7PR0F2/view?usp=sharing)
 
 There are three types of image data for this competition, all coming from the larger Places2 dataset: training data (TRAINING), validation data (VALIDATION), and test (TEST). There is no overlap in the three splits of data.  All three splits contain images belonging to 100 scene categories.
 
@@ -171,4 +171,4 @@ Please cite the following [places journal paper](http://places2.csail.mit.edu/PA
  }
 ```
 
-Please contact Bolei Zhou (bzhou@csail.mit.edu) if you have questions or comments on the general design of the MiniPlaces challenge. If you an MIT student taking 6.819/6.869: Advances in Computer Vision, please contact the [teaching staff](http://6.869.csail.mit.edu/) for any course-related problems.
+Please contact Bolei Zhou (zhoubolei@gmail.com) if you have questions or comments MiniPlaces challenge. If you are a lecturer and in need for the ground-truth of the test set, please reach out to Bolei too. If you an MIT student taking 6.819/6.869: Advances in Computer Vision, please contact the [teaching staff](http://6.869.csail.mit.edu/) for any course-related problems.

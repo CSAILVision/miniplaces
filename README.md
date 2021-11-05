@@ -23,7 +23,7 @@ Table of contents:
 
 ## 1. Overview of challenge dataset
 
-The link for downloading the image data is [here](http://miniplaces.csail.mit.edu/data/data.tar.gz). [Backup link at Google Drive](https://drive.google.com/file/d/16GYHdSWS3iMYwMPv5FpeDZN2rH7PR0F2/view?usp=sharing)
+The link for downloading the image data is [here](https://places.csail.mit.edu/miniplaces/data/data.tar.gz). [Backup link at Google Drive](https://drive.google.com/file/d/16GYHdSWS3iMYwMPv5FpeDZN2rH7PR0F2/view?usp=sharing)
 
 There are three types of image data for this competition, all coming from the larger Places2 dataset: training data (TRAINING), validation data (VALIDATION), and test (TEST). There is no overlap in the three splits of data.  All three splits contain images belonging to 100 scene categories.
 
